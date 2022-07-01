@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-07-01T17:15:05.807230",
+    "startedAt": "2022-07-01T17:15:02.350271",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/Mental-state/Untitled3.ipynb",
+    "root": "C:\\Users\\ASUS",
+    "host": "DESKTOP-GP75FG0",
+    "username": "ASUS",
+    "executable": "C:\\Users\\ASUS\\anaconda3\\python.exe"
+}
