@@ -1,0 +1,188 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv1d (Conv1D)             (None, 984, 64)           384
+ batch_normalization (BatchN  (None, 984, 64)          256
+ ormalization)
+ max_pooling1d (MaxPooling1D  (None, 492, 64)          0
+ )
+ dropout (Dropout)           (None, 492, 64)           0
+ re_lu (ReLU)                (None, 492, 64)           0
+ conv1d_1 (Conv1D)           (None, 488, 64)           20544
+ batch_normalization_1 (Batc  (None, 488, 64)          256
+ hNormalization)
+ max_pooling1d_1 (MaxPooling  (None, 244, 64)          0
+ 1D)
+ dropout_1 (Dropout)         (None, 244, 64)           0
+ re_lu_1 (ReLU)              (None, 244, 64)           0
+ conv1d_2 (Conv1D)           (None, 240, 32)           10272
+ batch_normalization_2 (Batc  (None, 240, 32)          128
+ hNormalization)
+ max_pooling1d_2 (MaxPooling  (None, 120, 32)          0
+ 1D)
+ dropout_2 (Dropout)         (None, 120, 32)           0
+ re_lu_2 (ReLU)              (None, 120, 32)           0
+ flatten (Flatten)           (None, 3840)              0
+ dense (Dense)               (None, 32)                122912
+ dropout_3 (Dropout)         (None, 32)                0
+ activation (Activation)     (None, 32)                0
+ dense_1 (Dense)             (None, 3)                 99
+=================================================================
+Total params: 154,851
+Trainable params: 154,531
+Non-trainable params: 320
+_________________________________________________________________
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:From C:\Users\ASUS\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\ops\nn_ops.py:5219: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/30
+
+
+
+
+54/54 [==============================] - 13s 177ms/step - loss: 1.2126 - accuracy: 0.5252 - val_loss: 0.9254 - val_accuracy: 0.5867 - _timestamp: 1657130081.0000 - _runtime: 41.0000
+Epoch 2/30
+
+
+
+54/54 [==============================] - 9s 160ms/step - loss: 0.8677 - accuracy: 0.5911 - val_loss: 0.8485 - val_accuracy: 0.6694 - _timestamp: 1657130090.0000 - _runtime: 50.0000
+Epoch 3/30
+
+
+
+54/54 [==============================] - 9s 158ms/step - loss: 0.8631 - accuracy: 0.5911 - val_loss: 0.8408 - val_accuracy: 0.6351 - _timestamp: 1657130098.0000 - _runtime: 58.0000
+Epoch 4/30
+
+
+
+
+54/54 [==============================] - 9s 158ms/step - loss: 0.8542 - accuracy: 0.5972 - val_loss: 0.8348 - val_accuracy: 0.6613 - _timestamp: 1657130107.0000 - _runtime: 67.0000
+Epoch 5/30
+
+
+
+54/54 [==============================] - 8s 157ms/step - loss: 0.8020 - accuracy: 0.6079 - val_loss: 0.8193 - val_accuracy: 0.7077 - _timestamp: 1657130115.0000 - _runtime: 75.0000
+Epoch 6/30
+
+
+
+54/54 [==============================] - 8s 157ms/step - loss: 0.8007 - accuracy: 0.6200 - val_loss: 0.8018 - val_accuracy: 0.6956 - _timestamp: 1657130124.0000 - _runtime: 84.0000
+Epoch 7/30
+
+
+
+54/54 [==============================] - 9s 161ms/step - loss: 0.7675 - accuracy: 0.6617 - val_loss: 0.7827 - val_accuracy: 0.6895 - _timestamp: 1657130132.0000 - _runtime: 92.0000
+Epoch 8/30
+
+
+
+
+54/54 [==============================] - 9s 164ms/step - loss: 0.7438 - accuracy: 0.6557 - val_loss: 0.7656 - val_accuracy: 0.6895 - _timestamp: 1657130141.0000 - _runtime: 101.0000
+Epoch 9/30
+
+
+
+54/54 [==============================] - 9s 168ms/step - loss: 0.7479 - accuracy: 0.6631 - val_loss: 0.7610 - val_accuracy: 0.6794 - _timestamp: 1657130150.0000 - _runtime: 110.0000
+Epoch 10/30
+
+
+
+54/54 [==============================] - 9s 157ms/step - loss: 0.7024 - accuracy: 0.6651 - val_loss: 0.7301 - val_accuracy: 0.7016 - _timestamp: 1657130159.0000 - _runtime: 119.0000
+Epoch 11/30
+
+
+
+
+54/54 [==============================] - 9s 163ms/step - loss: 0.7271 - accuracy: 0.6779 - val_loss: 0.7276 - val_accuracy: 0.6956 - _timestamp: 1657130167.0000 - _runtime: 127.0000
+Epoch 12/30
+
+
+
+54/54 [==============================] - 9s 163ms/step - loss: 0.6729 - accuracy: 0.6940 - val_loss: 0.6965 - val_accuracy: 0.7036 - _timestamp: 1657130176.0000 - _runtime: 136.0000
+Epoch 13/30
+
+
+
+54/54 [==============================] - 9s 160ms/step - loss: 0.6829 - accuracy: 0.7054 - val_loss: 0.6954 - val_accuracy: 0.6774 - _timestamp: 1657130185.0000 - _runtime: 145.0000
+Epoch 14/30
+
+
+
+54/54 [==============================] - 8s 154ms/step - loss: 0.6512 - accuracy: 0.6833 - val_loss: 0.6882 - val_accuracy: 0.7339 - _timestamp: 1657130193.0000 - _runtime: 153.0000
+Epoch 15/30
+
+
+54/54 [==============================] - 8s 151ms/step - loss: 0.6768 - accuracy: 0.7149 - val_loss: 0.6964 - val_accuracy: 0.6895 - _timestamp: 1657130201.0000 - _runtime: 161.0000
+Epoch 16/30
+
+
+
+54/54 [==============================] - 8s 149ms/step - loss: 0.6436 - accuracy: 0.7290 - val_loss: 0.6653 - val_accuracy: 0.7218 - _timestamp: 1657130209.0000 - _runtime: 169.0000
+Epoch 17/30
+
+
+54/54 [==============================] - 8s 150ms/step - loss: 0.5846 - accuracy: 0.7471 - val_loss: 0.6514 - val_accuracy: 0.7258 - _timestamp: 1657130218.0000 - _runtime: 178.0000
+Epoch 18/30
+
+
+
+
+54/54 [==============================] - 9s 172ms/step - loss: 0.5970 - accuracy: 0.7377 - val_loss: 0.6289 - val_accuracy: 0.7359 - _timestamp: 1657130227.0000 - _runtime: 187.0000
+Epoch 19/30
+
+
+
+
+54/54 [==============================] - 10s 188ms/step - loss: 0.5951 - accuracy: 0.7249 - val_loss: 0.6223 - val_accuracy: 0.7298 - _timestamp: 1657130237.0000 - _runtime: 197.0000
+Epoch 20/30
+
+
+
+54/54 [==============================] - 8s 149ms/step - loss: 0.6004 - accuracy: 0.7256 - val_loss: 0.6086 - val_accuracy: 0.7621 - _timestamp: 1657130245.0000 - _runtime: 205.0000
+Epoch 21/30
+
+
+
+54/54 [==============================] - 8s 149ms/step - loss: 0.5901 - accuracy: 0.7364 - val_loss: 0.6360 - val_accuracy: 0.7218 - _timestamp: 1657130253.0000 - _runtime: 213.0000
+Epoch 22/30
+21/54 [==========>...................] - ETA: 4s - loss: 0.5685 - accuracy: 0.7330
+34/54 [=================>............] - ETA: 2s - loss: 0.5747 - accuracy: 0.7489
+47/54 [=========================>....] - ETA: 1s - loss: 0.5971 - accuracy: 0.7363
+ 1/54 [..............................] - ETA: 7s - loss: 0.5324 - accuracy: 0.75000.7384 - val_loss: 0.6038 - val_accuracy: 0.7319 - _timestamp: 1657130262.0000 - _runtime: 222.0000
+15/54 [=======>......................] - ETA: 5s - loss: 0.6125 - accuracy: 0.70710.7384 - val_loss: 0.6038 - val_accuracy: 0.7319 - _timestamp: 1657130262.0000 - _runtime: 222.0000
+29/54 [===============>..............] - ETA: 3s - loss: 0.6095 - accuracy: 0.73650.7384 - val_loss: 0.6038 - val_accuracy: 0.7319 - _timestamp: 1657130262.0000 - _runtime: 222.0000
+43/54 [======================>.......] - ETA: 1s - loss: 0.5856 - accuracy: 0.74580.7384 - val_loss: 0.6038 - val_accuracy: 0.7319 - _timestamp: 1657130262.0000 - _runtime: 222.0000
+ 1/54 [..............................] - ETA: 7s - loss: 0.4220 - accuracy: 0.78570.7566 - val_loss: 0.5928 - val_accuracy: 0.7359 - _timestamp: 1657130270.0000 - _runtime: 230.0000
+16/54 [=======>......................] - ETA: 5s - loss: 0.5341 - accuracy: 0.75450.7566 - val_loss: 0.5928 - val_accuracy: 0.7359 - _timestamp: 1657130270.0000 - _runtime: 230.0000
+27/54 [==============>...............] - ETA: 3s - loss: 0.5238 - accuracy: 0.76060.7566 - val_loss: 0.5928 - val_accuracy: 0.7359 - _timestamp: 1657130270.0000 - _runtime: 230.0000
+42/54 [======================>.......] - ETA: 1s - loss: 0.5312 - accuracy: 0.76190.7566 - val_loss: 0.5928 - val_accuracy: 0.7359 - _timestamp: 1657130270.0000 - _runtime: 230.0000
+54/54 [==============================] - 8s 147ms/step - loss: 0.5680 - accuracy: 0.7525 - val_loss: 0.6129 - val_accuracy: 0.7056 - _timestamp: 1657130278.0000 - _runtime: 238.0000
+14/54 [======>.......................] - ETA: 5s - loss: 0.5569 - accuracy: 0.73470.7525 - val_loss: 0.6129 - val_accuracy: 0.7056 - _timestamp: 1657130278.0000 - _runtime: 238.0000
+29/54 [===============>..............] - ETA: 3s - loss: 0.5552 - accuracy: 0.74880.7525 - val_loss: 0.6129 - val_accuracy: 0.7056 - _timestamp: 1657130278.0000 - _runtime: 238.0000
+44/54 [=======================>......] - ETA: 1s - loss: 0.5705 - accuracy: 0.75320.7525 - val_loss: 0.6129 - val_accuracy: 0.7056 - _timestamp: 1657130278.0000 - _runtime: 238.0000
+ 2/54 [>.............................] - ETA: 7s - loss: 0.4854 - accuracy: 0.73210.7532 - val_loss: 0.5958 - val_accuracy: 0.7339 - _timestamp: 1657130286.0000 - _runtime: 246.0000
+18/54 [=========>....................] - ETA: 4s - loss: 0.5181 - accuracy: 0.77980.7532 - val_loss: 0.5958 - val_accuracy: 0.7339 - _timestamp: 1657130286.0000 - _runtime: 246.0000
+29/54 [===============>..............] - ETA: 3s - loss: 0.5194 - accuracy: 0.77340.7532 - val_loss: 0.5958 - val_accuracy: 0.7339 - _timestamp: 1657130286.0000 - _runtime: 246.0000
+44/54 [=======================>......] - ETA: 1s - loss: 0.5304 - accuracy: 0.77030.7532 - val_loss: 0.5958 - val_accuracy: 0.7339 - _timestamp: 1657130286.0000 - _runtime: 246.0000
+ 1/54 [..............................] - ETA: 7s - loss: 0.5880 - accuracy: 0.71430.7640 - val_loss: 0.5811 - val_accuracy: 0.7520 - _timestamp: 1657130294.0000 - _runtime: 254.0000
+16/54 [=======>......................] - ETA: 5s - loss: 0.5295 - accuracy: 0.77900.7640 - val_loss: 0.5811 - val_accuracy: 0.7520 - _timestamp: 1657130294.0000 - _runtime: 254.0000
+31/54 [================>.............] - ETA: 3s - loss: 0.5395 - accuracy: 0.76730.7640 - val_loss: 0.5811 - val_accuracy: 0.7520 - _timestamp: 1657130294.0000 - _runtime: 254.0000
+45/54 [========================>.....] - ETA: 1s - loss: 0.5322 - accuracy: 0.77380.7640 - val_loss: 0.5811 - val_accuracy: 0.7520 - _timestamp: 1657130294.0000 - _runtime: 254.0000
+ 3/54 [>.............................] - ETA: 7s - loss: 0.5361 - accuracy: 0.73810.7687 - val_loss: 0.5622 - val_accuracy: 0.7742 - _timestamp: 1657130302.0000 - _runtime: 262.0000
+18/54 [=========>....................] - ETA: 5s - loss: 0.5481 - accuracy: 0.76790.7687 - val_loss: 0.5622 - val_accuracy: 0.7742 - _timestamp: 1657130302.0000 - _runtime: 262.0000
+33/54 [=================>............] - ETA: 2s - loss: 0.5411 - accuracy: 0.75320.7687 - val_loss: 0.5622 - val_accuracy: 0.7742 - _timestamp: 1657130302.0000 - _runtime: 262.0000
+48/54 [=========================>....] - ETA: 0s - loss: 0.5424 - accuracy: 0.75220.7687 - val_loss: 0.5622 - val_accuracy: 0.7742 - _timestamp: 1657130302.0000 - _runtime: 262.0000
+ 2/54 [>.............................] - ETA: 7s - loss: 0.6740 - accuracy: 0.64290.7532 - val_loss: 0.5654 - val_accuracy: 0.7681 - _timestamp: 1657130310.0000 - _runtime: 270.0000
+17/54 [========>.....................] - ETA: 5s - loss: 0.5442 - accuracy: 0.76260.7532 - val_loss: 0.5654 - val_accuracy: 0.7681 - _timestamp: 1657130310.0000 - _runtime: 270.0000
+32/54 [================>.............] - ETA: 3s - loss: 0.5511 - accuracy: 0.75110.7532 - val_loss: 0.5654 - val_accuracy: 0.7681 - _timestamp: 1657130310.0000 - _runtime: 270.0000
+47/54 [=========================>....] - ETA: 0s - loss: 0.5393 - accuracy: 0.75460.7532 - val_loss: 0.5654 - val_accuracy: 0.7681 - _timestamp: 1657130310.0000 - _runtime: 270.0000
+ 5/54 [=>............................] - ETA: 6s - loss: 0.5831 - accuracy: 0.77860.7552 - val_loss: 0.5584 - val_accuracy: 0.7984 - _timestamp: 1657130318.0000 - _runtime: 278.0000
+20/54 [==========>...................] - ETA: 4s - loss: 0.5376 - accuracy: 0.77860.7552 - val_loss: 0.5584 - val_accuracy: 0.7984 - _timestamp: 1657130318.0000 - _runtime: 278.0000
+31/54 [================>.............] - ETA: 3s - loss: 0.5333 - accuracy: 0.76730.7552 - val_loss: 0.5584 - val_accuracy: 0.7984 - _timestamp: 1657130318.0000 - _runtime: 278.0000
+45/54 [========================>.....] - ETA: 1s - loss: 0.5538 - accuracy: 0.76190.7552 - val_loss: 0.5584 - val_accuracy: 0.7984 - _timestamp: 1657130318.0000 - _runtime: 278.0000
+54/54 [==============================] - 8s 152ms/step - loss: 0.5406 - accuracy: 0.7700 - val_loss: 0.5399 - val_accuracy: 0.7702 - _timestamp: 1657130326.0000 - _runtime: 286.0000
+54/54 [==============================] - 8s 152ms/step - loss: 0.5406 - accuracy: 0.7700 - val_loss: 0.5399 - val_accuracy: 0.7702 - _timestamp: 1657130326.0000 - _runtime: 286.0000
+54/54 [==============================] - 8s 152ms/step - loss: 0.5406 - accuracy: 0.7700 - val_loss: 0.5399 - val_accuracy: 0.7702 - _timestamp: 1657130326.0000 - _runtime: 286.0000
+54/54 [==============================] - 8s 152ms/step - loss: 0.5406 - accuracy: 0.7700 - val_loss: 0.5399 - val_accuracy: 0.7702 - _timestamp: 1657130326.0000 - _runtime: 286.0000

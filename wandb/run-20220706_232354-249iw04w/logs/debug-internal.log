@@ -1,0 +1,715 @@
+2022-07-06 23:24:02,968 INFO    MainThread:21580 [internal.py:wandb_internal():90] W&B internal server running at pid: 21580, started at: 2022-07-06 23:24:02.967974
+2022-07-06 23:24:02,971 INFO    WriterThread:21580 [datastore.py:open_for_write():75] open: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\run-249iw04w.wandb
+2022-07-06 23:24:02,975 DEBUG   SenderThread:21580 [sender.py:send():236] send: header
+2022-07-06 23:24:02,975 DEBUG   SenderThread:21580 [sender.py:send():236] send: run
+2022-07-06 23:24:03,538 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: check_version
+2022-07-06 23:24:03,550 INFO    SenderThread:21580 [dir_watcher.py:__init__():216] watching files in: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files
+2022-07-06 23:24:03,550 INFO    SenderThread:21580 [sender.py:_start_run_threads():815] run started: 249iw04w with start time 1657130040
+2022-07-06 23:24:03,550 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:03,552 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:03,552 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: check_version
+2022-07-06 23:24:03,802 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: run_start
+2022-07-06 23:24:03,819 DEBUG   HandlerThread:21580 [meta.py:__init__():35] meta init
+2022-07-06 23:24:03,826 DEBUG   HandlerThread:21580 [meta.py:__init__():49] meta init done
+2022-07-06 23:24:03,826 DEBUG   HandlerThread:21580 [meta.py:probe():209] probe
+2022-07-06 23:24:03,843 DEBUG   HandlerThread:21580 [meta.py:_setup_git():199] setup git
+2022-07-06 23:24:03,990 DEBUG   HandlerThread:21580 [meta.py:_setup_git():206] setup git done
+2022-07-06 23:24:03,991 DEBUG   HandlerThread:21580 [meta.py:_save_pip():53] save pip
+2022-07-06 23:24:03,992 DEBUG   HandlerThread:21580 [meta.py:_save_pip():67] save pip done
+2022-07-06 23:24:03,992 DEBUG   HandlerThread:21580 [meta.py:_save_conda():74] save conda
+2022-07-06 23:24:04,561 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\conda-environment.yaml
+2022-07-06 23:24:04,562 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:24:04,562 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\requirements.txt
+2022-07-06 23:24:09,614 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:11,664 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:19,734 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:29,803 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:31,826 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\conda-environment.yaml
+2022-07-06 23:24:32,224 DEBUG   HandlerThread:21580 [meta.py:_save_conda():84] save conda done
+2022-07-06 23:24:32,225 DEBUG   HandlerThread:21580 [meta.py:probe():247] probe done
+2022-07-06 23:24:32,842 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\media\graph\graph_summary_3649d53c0aec3a80cae9.graph.json
+2022-07-06 23:24:32,844 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-metadata.json
+2022-07-06 23:24:32,844 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\media
+2022-07-06 23:24:32,846 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\media\graph
+2022-07-06 23:24:33,855 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:34,636 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:24:34,637 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: pause
+2022-07-06 23:24:34,638 INFO    HandlerThread:21580 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-06 23:24:34,643 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:24:34,803 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: resume
+2022-07-06 23:24:34,803 INFO    HandlerThread:21580 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-06 23:24:34,863 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-06 23:24:34,865 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:24:35,203 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:24:35,203 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:24:35,203 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:24:35,207 DEBUG   SenderThread:21580 [sender.py:send():236] send: files
+2022-07-06 23:24:35,208 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file model-best.h5 with policy live
+2022-07-06 23:24:35,209 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:24:35,209 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:35,211 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:35,212 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:24:35,701 DEBUG   SenderThread:21580 [sender.py:send():236] send: files
+2022-07-06 23:24:35,701 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file media\graph\graph_summary_3649d53c0aec3a80cae9.graph.json with policy now
+2022-07-06 23:24:35,702 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:35,704 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:35,705 DEBUG   SenderThread:21580 [sender.py:send():236] send: files
+2022-07-06 23:24:35,705 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-06 23:24:35,707 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:24:35,887 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:35,888 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:24:36,885 INFO    Thread-18 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\AppData\Local\Temp\tmp7xilbc1zwandb\3cty4c20-media/graph/graph_summary_3649d53c0aec3a80cae9.graph.json
+2022-07-06 23:24:36,938 INFO    Thread-19 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\AppData\Local\Temp\tmp7xilbc1zwandb\352d0aex-wandb-metadata.json
+2022-07-06 23:24:37,902 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:39,924 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:41,335 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:41,344 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:41,349 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:24:41,350 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:41,351 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:41,352 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:41,355 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:41,356 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:41,357 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:41,970 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:41,970 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:24:41,971 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:24:43,989 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:44,160 INFO    Thread-20 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\AppData\Local\Temp\tmp7xilbc1zwandb\rxf39tak-model-best.h5
+2022-07-06 23:24:46,076 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:48,107 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:48,862 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:24:48,863 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:24:50,030 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:50,032 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:50,033 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:24:50,035 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:50,038 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:50,039 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:50,040 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:50,042 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:50,044 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:50,168 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:24:50,169 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:24:50,169 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:52,205 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:54,231 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:56,250 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:58,277 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:24:58,565 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:58,574 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:24:58,575 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:24:58,577 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:58,579 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:58,579 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:58,580 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:58,581 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:24:58,583 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:24:59,292 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:24:59,293 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:00,309 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:01,327 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:03,362 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:04,357 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:25:04,358 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:25:04,390 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\config.yaml
+2022-07-06 23:25:05,409 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:06,302 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:25:07,070 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:07,077 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:07,078 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:07,080 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:07,082 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:07,083 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:07,085 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:07,086 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:07,090 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:07,451 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:07,453 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:07,454 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:09,502 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:11,531 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:13,574 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:15,553 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:15,561 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:15,562 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:15,563 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:15,566 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:15,567 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:15,569 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:15,570 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:15,571 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:15,624 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:15,625 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:15,626 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:16,638 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:17,648 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:19,665 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:19,896 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:25:19,898 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:25:21,708 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:23,759 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:24,058 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:24,064 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:24,066 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:24,067 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:24,070 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:24,071 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:24,073 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:24,074 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:24,076 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:24,779 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:24,780 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:25,797 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:27,830 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:29,877 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:31,914 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:32,761 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:32,764 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:32,766 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:32,767 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:32,769 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:32,770 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:32,772 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:32,772 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:32,774 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:32,924 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:32,925 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:33,934 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:35,473 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:25:35,474 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:25:35,975 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:38,000 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:40,027 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:25:40,057 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:41,638 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:41,643 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:41,644 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:41,644 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:41,647 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:41,649 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:41,652 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:41,652 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:41,653 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:42,108 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:42,111 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:42,112 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:44,175 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:46,191 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:48,245 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:50,266 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:50,702 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:50,710 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:50,711 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:50,712 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:50,715 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:50,716 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:50,717 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:50,717 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:50,719 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:50,986 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:25:50,987 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:25:51,295 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:51,296 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:25:52,303 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:54,337 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:56,392 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:58,422 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:25:59,208 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:59,208 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:25:59,210 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:25:59,211 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:59,212 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:59,213 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:59,214 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:59,214 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:25:59,216 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:25:59,425 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:25:59,427 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:00,451 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:02,468 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:04,512 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:06,551 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:26:06,551 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:26:06,559 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:07,988 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:07,992 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:07,993 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:07,994 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:07,996 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:07,996 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:07,998 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:07,999 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:08,001 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:08,596 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:08,598 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:08,600 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:10,626 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:12,653 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:13,921 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:26:14,736 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:16,764 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:16,789 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:16,797 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:16,798 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:16,799 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:16,801 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:16,802 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:16,803 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:16,804 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:16,806 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:17,789 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:17,790 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:18,795 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:20,839 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:22,120 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:26:22,120 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:26:22,910 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:24,957 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:25,443 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:25,445 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:25,447 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:25,447 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:25,449 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:25,451 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:25,454 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:25,455 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:25,456 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:25,966 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:25,967 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:26,984 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:29,014 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:31,053 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:33,068 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:33,733 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:33,736 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:33,738 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:33,738 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:33,740 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:33,743 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:33,745 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:33,745 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:33,746 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:34,122 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:34,122 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:35,137 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:37,186 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:37,777 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:26:37,778 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:26:39,204 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:41,218 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:41,998 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:41,998 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:42,000 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:42,001 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:42,004 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:42,224 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:43,235 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:45,257 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:47,294 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:47,577 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:26:49,333 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:49,962 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:49,963 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:49,965 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:49,966 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:49,968 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:49,970 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:49,972 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:49,974 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:49,976 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:50,352 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:50,352 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:51,370 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:53,323 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:26:53,324 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:26:53,398 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:55,414 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:57,443 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:26:58,038 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:58,041 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:26:58,043 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:26:58,044 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:58,045 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:58,047 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:58,049 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:58,050 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:26:58,051 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:26:58,451 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:26:58,453 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:26:59,459 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:01,533 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:02,566 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:04,634 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:06,670 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:07,314 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:07,316 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:07,318 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:07,319 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:07,321 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:07,324 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:07,326 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:07,327 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:07,329 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:07,698 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:27:07,699 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:08,730 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:08,880 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:27:08,881 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:27:10,766 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:12,818 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:14,847 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:16,870 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:17,443 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:17,459 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:17,469 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:17,470 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:17,472 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:17,473 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:17,474 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:17,475 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:17,477 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:17,886 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:27:17,887 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:18,906 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:20,939 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:21,999 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:27:23,023 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:24,414 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:27:24,414 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:27:25,060 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:25,502 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:25,512 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:25,514 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:25,515 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:25,517 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:25,518 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:25,520 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:25,520 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:25,521 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:26,089 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:27:26,092 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:27,114 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:29,154 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:31,204 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:33,222 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:33,638 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:33,639 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:33,640 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:33,640 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:33,642 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:34,234 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:35,239 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:37,292 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:39,360 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:39,957 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:27:39,958 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:27:41,405 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:42,320 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:42,321 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:42,323 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:42,324 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:42,326 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:42,328 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:42,330 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:42,332 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:42,333 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:42,423 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:27:42,424 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:43,441 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:45,468 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:47,513 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:49,562 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:50,640 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:50,644 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:50,645 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:50,646 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:50,647 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:50,650 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:50,652 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:50,653 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:50,654 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:51,597 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:27:51,598 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:51,599 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:53,634 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:55,504 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:27:55,505 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:27:55,755 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:56,152 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:27:57,797 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:27:58,674 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:58,675 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:27:58,676 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:27:58,677 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:27:58,678 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:27:58,806 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:27:59,827 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:01,861 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:03,908 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:05,962 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:06,770 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:06,770 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:06,771 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:06,772 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:06,773 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:06,989 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:08,001 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:10,030 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:11,172 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:28:11,173 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:28:12,050 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:14,078 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:14,677 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:14,684 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:14,686 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:14,687 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:14,690 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:14,690 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:14,692 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:14,693 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:14,697 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:15,103 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:28:15,103 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:16,134 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:18,173 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:20,196 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:22,248 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:22,753 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:22,761 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:22,762 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:22,763 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:22,768 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:22,769 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:22,770 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:22,771 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:22,772 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:23,262 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:28:23,264 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:24,268 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:26,284 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:26,920 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:28:26,921 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:28:28,303 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:29,484 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:28:30,347 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:30,755 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:30,757 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:30,758 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:30,758 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:30,760 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:31,372 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:32,387 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:34,427 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:36,466 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:38,488 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:38,692 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:38,698 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:38,700 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:38,702 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:38,704 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:38,706 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:38,708 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:38,708 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:38,710 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:39,511 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:28:39,512 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:40,514 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:42,445 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:28:42,445 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:28:42,552 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:44,588 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:46,648 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:46,859 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:46,867 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:28:46,868 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:28:46,868 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:46,871 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:46,872 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:46,875 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:46,876 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:28:46,878 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:28:46,938 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: pause
+2022-07-06 23:28:46,938 INFO    HandlerThread:21580 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-06 23:28:47,052 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:28:47,650 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5
+2022-07-06 23:28:47,651 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:28:48,659 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:28:57,956 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:28:57,956 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:29:13,464 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:29:13,465 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:29:28,984 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:29:28,984 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:29:44,487 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:29:44,488 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:30:00,003 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:30:00,004 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:30:01,573 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: resume
+2022-07-06 23:30:01,573 INFO    HandlerThread:21580 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-06 23:30:02,168 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-06 23:30:02,169 DEBUG   SenderThread:21580 [sender.py:send():236] send: history
+2022-07-06 23:30:02,170 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:30:02,177 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:30:02,178 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:30:02,178 DEBUG   SenderThread:21580 [sender.py:send():236] send: telemetry
+2022-07-06 23:30:02,263 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:30:02,265 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:30:03,063 DEBUG   SenderThread:21580 [sender.py:send():236] send: exit
+2022-07-06 23:30:03,065 INFO    SenderThread:21580 [sender.py:send_exit():372] handling exit code: 0
+2022-07-06 23:30:03,065 INFO    SenderThread:21580 [sender.py:send_exit():374] handling runtime: 284
+2022-07-06 23:30:03,066 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:03,067 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:30:03,067 INFO    SenderThread:21580 [sender.py:send_exit():380] send defer
+2022-07-06 23:30:03,068 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:03,069 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,069 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-06 23:30:03,069 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,069 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-06 23:30:03,069 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 1
+2022-07-06 23:30:03,070 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,070 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-06 23:30:03,126 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,126 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-06 23:30:03,126 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 2
+2022-07-06 23:30:03,128 DEBUG   SenderThread:21580 [sender.py:send():236] send: stats
+2022-07-06 23:30:03,128 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,128 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-06 23:30:03,129 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,129 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-06 23:30:03,129 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 3
+2022-07-06 23:30:03,130 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,130 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-06 23:30:03,131 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,131 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-06 23:30:03,131 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 4
+2022-07-06 23:30:03,133 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,133 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-06 23:30:03,133 DEBUG   SenderThread:21580 [sender.py:send():236] send: summary
+2022-07-06 23:30:03,134 INFO    SenderThread:21580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:30:03,135 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,135 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-06 23:30:03,135 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 5
+2022-07-06 23:30:03,136 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,136 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-06 23:30:03,136 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,136 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-06 23:30:03,188 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:03,266 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:30:03,266 INFO    Thread-11 :21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:30:03,777 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 6
+2022-07-06 23:30:03,777 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:03,779 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:03,779 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-06 23:30:03,779 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:03,779 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-06 23:30:03,779 INFO    SenderThread:21580 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-06 23:30:03,886 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,274 INFO    SenderThread:21580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\config.yaml
+2022-07-06 23:30:04,275 INFO    SenderThread:21580 [dir_watcher.py:finish():383] scan: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files
+2022-07-06 23:30:04,276 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\conda-environment.yaml conda-environment.yaml
+2022-07-06 23:30:04,276 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\config.yaml config.yaml
+2022-07-06 23:30:04,278 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\model-best.h5 model-best.h5
+2022-07-06 23:30:04,290 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log output.log
+2022-07-06 23:30:04,291 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\requirements.txt requirements.txt
+2022-07-06 23:30:04,292 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-metadata.json wandb-metadata.json
+2022-07-06 23:30:04,292 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json wandb-summary.json
+2022-07-06 23:30:04,293 INFO    SenderThread:21580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\media\graph\graph_summary_3649d53c0aec3a80cae9.graph.json media\graph\graph_summary_3649d53c0aec3a80cae9.graph.json
+2022-07-06 23:30:04,293 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 7
+2022-07-06 23:30:04,293 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,295 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:04,295 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-06 23:30:04,295 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:04,296 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-06 23:30:04,296 INFO    SenderThread:21580 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 23:30:04,412 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,413 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,533 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,534 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,639 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,639 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,748 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,749 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,856 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,856 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:04,965 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:04,966 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,088 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,088 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,196 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,196 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,304 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,305 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,413 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,417 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,547 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,548 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,658 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,658 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,768 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,769 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,877 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,878 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:05,984 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:05,985 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,092 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,094 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,162 INFO    Thread-25 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\output.log
+2022-07-06 23:30:06,162 INFO    Thread-27 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\wandb-summary.json
+2022-07-06 23:30:06,166 INFO    Thread-26 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\requirements.txt
+2022-07-06 23:30:06,216 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,216 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,232 INFO    Thread-23 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\config.yaml
+2022-07-06 23:30:06,239 INFO    Thread-22 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\files\conda-environment.yaml
+2022-07-06 23:30:06,323 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,325 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,432 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,433 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,539 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,541 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,648 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,648 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,756 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,756 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,864 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,865 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:06,971 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:06,972 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:07,082 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:07,082 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:07,181 INFO    Thread-24 :21580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\AppData\Local\Temp\tmp7xilbc1zwandb\2dveld4g-model-best.h5
+2022-07-06 23:30:07,189 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:07,190 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:07,299 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:07,300 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:07,390 INFO    Thread-10 :21580 [sender.py:transition_state():393] send defer: 8
+2022-07-06 23:30:07,392 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:07,392 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-06 23:30:07,393 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:07,393 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-06 23:30:07,406 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:08,484 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 9
+2022-07-06 23:30:08,485 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:08,487 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:08,488 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-06 23:30:08,488 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:08,489 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-06 23:30:08,489 INFO    SenderThread:21580 [sender.py:transition_state():393] send defer: 10
+2022-07-06 23:30:08,491 DEBUG   SenderThread:21580 [sender.py:send():236] send: final
+2022-07-06 23:30:08,492 DEBUG   SenderThread:21580 [sender.py:send():236] send: footer
+2022-07-06 23:30:08,493 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:30:08,493 INFO    HandlerThread:21580 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-06 23:30:08,494 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:30:08,494 INFO    SenderThread:21580 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-06 23:30:08,601 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:30:08,601 DEBUG   SenderThread:21580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:30:08,602 INFO    SenderThread:21580 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 23:30:09,667 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-06 23:30:09,676 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-06 23:30:09,680 DEBUG   HandlerThread:21580 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-06 23:30:09,681 INFO    HandlerThread:21580 [handler.py:finish():806] shutting down handler
+2022-07-06 23:30:10,503 INFO    WriterThread:21580 [datastore.py:close():279] close: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_232354-249iw04w\run-249iw04w.wandb
+2022-07-06 23:30:10,565 INFO    SenderThread:21580 [sender.py:finish():1114] shutting down sender
+2022-07-06 23:30:10,565 INFO    SenderThread:21580 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 23:30:10,565 INFO    SenderThread:21580 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 23:30:10,572 INFO    MainThread:21580 [internal.py:handle_exit():80] Internal process exited

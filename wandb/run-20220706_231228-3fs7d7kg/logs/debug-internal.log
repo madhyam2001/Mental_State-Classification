@@ -1,0 +1,187 @@
+2022-07-06 23:12:30,543 INFO    MainThread:3580 [internal.py:wandb_internal():90] W&B internal server running at pid: 3580, started at: 2022-07-06 23:12:30.542618
+2022-07-06 23:12:30,546 INFO    WriterThread:3580 [datastore.py:open_for_write():75] open: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\run-3fs7d7kg.wandb
+2022-07-06 23:12:30,550 DEBUG   SenderThread:3580 [sender.py:send():236] send: header
+2022-07-06 23:12:30,550 DEBUG   SenderThread:3580 [sender.py:send():236] send: run
+2022-07-06 23:12:31,183 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: check_version
+2022-07-06 23:12:31,188 INFO    SenderThread:3580 [dir_watcher.py:__init__():216] watching files in: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files
+2022-07-06 23:12:31,189 INFO    SenderThread:3580 [sender.py:_start_run_threads():815] run started: 3fs7d7kg with start time 1657129348
+2022-07-06 23:12:31,189 DEBUG   SenderThread:3580 [sender.py:send():236] send: summary
+2022-07-06 23:12:31,190 INFO    SenderThread:3580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:12:31,190 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: check_version
+2022-07-06 23:12:31,521 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: run_start
+2022-07-06 23:12:31,548 DEBUG   HandlerThread:3580 [meta.py:__init__():35] meta init
+2022-07-06 23:12:31,559 DEBUG   HandlerThread:3580 [meta.py:__init__():49] meta init done
+2022-07-06 23:12:31,559 DEBUG   HandlerThread:3580 [meta.py:probe():209] probe
+2022-07-06 23:12:31,580 DEBUG   HandlerThread:3580 [meta.py:_setup_git():199] setup git
+2022-07-06 23:12:31,707 DEBUG   HandlerThread:3580 [meta.py:_setup_git():206] setup git done
+2022-07-06 23:12:31,707 DEBUG   HandlerThread:3580 [meta.py:_save_pip():53] save pip
+2022-07-06 23:12:31,709 DEBUG   HandlerThread:3580 [meta.py:_save_pip():67] save pip done
+2022-07-06 23:12:31,709 DEBUG   HandlerThread:3580 [meta.py:_save_conda():74] save conda
+2022-07-06 23:12:32,191 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\conda-environment.yaml
+2022-07-06 23:12:32,192 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\requirements.txt
+2022-07-06 23:12:32,193 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-summary.json
+2022-07-06 23:12:37,251 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\output.log
+2022-07-06 23:12:51,093 DEBUG   HandlerThread:3580 [meta.py:_save_conda():84] save conda done
+2022-07-06 23:12:51,093 DEBUG   HandlerThread:3580 [meta.py:probe():247] probe done
+2022-07-06 23:12:51,384 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\conda-environment.yaml
+2022-07-06 23:12:51,385 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-metadata.json
+2022-07-06 23:12:51,839 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:12:51,839 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:12:51,845 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: pause
+2022-07-06 23:12:51,845 INFO    HandlerThread:3580 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-06 23:12:52,364 DEBUG   SenderThread:3580 [sender.py:send():236] send: telemetry
+2022-07-06 23:12:52,365 DEBUG   SenderThread:3580 [sender.py:send():236] send: files
+2022-07-06 23:12:52,365 INFO    SenderThread:3580 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-06 23:12:52,368 DEBUG   SenderThread:3580 [sender.py:send():236] send: stats
+2022-07-06 23:12:54,119 INFO    Thread-17 :3580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\AppData\Local\Temp\tmpqjwjv3l3wandb\ekmsag39-wandb-metadata.json
+2022-07-06 23:12:56,542 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:12:56,543 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:13:02,466 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\config.yaml
+2022-07-06 23:13:12,033 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:13:12,034 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:13:27,557 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:13:27,558 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:13:43,098 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:13:43,099 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:13:51,612 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: resume
+2022-07-06 23:13:51,612 INFO    HandlerThread:3580 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-06 23:13:51,625 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: pause
+2022-07-06 23:13:51,626 INFO    HandlerThread:3580 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-06 23:13:51,659 DEBUG   SenderThread:3580 [sender.py:send():236] send: stats
+2022-07-06 23:13:58,603 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 23:13:58,604 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 23:13:59,510 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: resume
+2022-07-06 23:13:59,510 INFO    HandlerThread:3580 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-06 23:13:59,551 DEBUG   SenderThread:3580 [sender.py:send():236] send: telemetry
+2022-07-06 23:13:59,556 DEBUG   SenderThread:3580 [sender.py:send():236] send: telemetry
+2022-07-06 23:14:00,433 DEBUG   SenderThread:3580 [sender.py:send():236] send: exit
+2022-07-06 23:14:00,434 INFO    SenderThread:3580 [sender.py:send_exit():372] handling exit code: 0
+2022-07-06 23:14:00,434 INFO    SenderThread:3580 [sender.py:send_exit():374] handling runtime: 21
+2022-07-06 23:14:00,436 INFO    SenderThread:3580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:14:00,437 INFO    SenderThread:3580 [sender.py:send_exit():380] send defer
+2022-07-06 23:14:00,439 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:00,439 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:00,440 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,441 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-06 23:14:00,442 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,443 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-06 23:14:00,443 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 1
+2022-07-06 23:14:00,444 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,444 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-06 23:14:00,544 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,544 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-06 23:14:00,545 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 2
+2022-07-06 23:14:00,546 DEBUG   SenderThread:3580 [sender.py:send():236] send: stats
+2022-07-06 23:14:00,546 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,547 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-06 23:14:00,547 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,548 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-06 23:14:00,548 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 3
+2022-07-06 23:14:00,549 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,549 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-06 23:14:00,549 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,550 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-06 23:14:00,550 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 4
+2022-07-06 23:14:00,551 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,551 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-06 23:14:00,551 DEBUG   SenderThread:3580 [sender.py:send():236] send: summary
+2022-07-06 23:14:00,553 INFO    SenderThread:3580 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 23:14:00,553 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,553 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-06 23:14:00,553 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 5
+2022-07-06 23:14:00,553 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:00,553 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-06 23:14:00,553 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:00,553 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-06 23:14:00,561 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:00,930 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-summary.json
+2022-07-06 23:14:01,115 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 6
+2022-07-06 23:14:01,115 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:01,117 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:01,117 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-06 23:14:01,118 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:01,118 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-06 23:14:01,118 INFO    SenderThread:3580 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-06 23:14:01,223 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:01,932 INFO    Thread-11 :3580 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\config.yaml
+2022-07-06 23:14:01,935 INFO    SenderThread:3580 [dir_watcher.py:finish():383] scan: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files
+2022-07-06 23:14:01,936 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\conda-environment.yaml conda-environment.yaml
+2022-07-06 23:14:01,936 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\config.yaml config.yaml
+2022-07-06 23:14:01,937 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\output.log output.log
+2022-07-06 23:14:01,942 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\requirements.txt requirements.txt
+2022-07-06 23:14:01,944 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-metadata.json wandb-metadata.json
+2022-07-06 23:14:01,948 INFO    SenderThread:3580 [dir_watcher.py:finish():397] scan save: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-summary.json wandb-summary.json
+2022-07-06 23:14:01,954 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 7
+2022-07-06 23:14:01,955 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:01,957 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:01,957 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-06 23:14:01,958 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:01,963 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-06 23:14:01,963 INFO    SenderThread:3580 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 23:14:02,072 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,072 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,180 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,181 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,287 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,287 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,394 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,394 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,500 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,502 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,608 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,608 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,716 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,718 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,838 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,838 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:02,945 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:02,945 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,053 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,055 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,160 INFO    Thread-22 :3580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\requirements.txt
+2022-07-06 23:14:03,164 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,165 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,208 INFO    Thread-20 :3580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\conda-environment.yaml
+2022-07-06 23:14:03,272 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,272 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,379 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,380 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,470 INFO    Thread-21 :3580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\config.yaml
+2022-07-06 23:14:03,486 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,487 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,517 INFO    Thread-23 :3580 [upload_job.py:push():138] Uploaded file C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\files\wandb-summary.json
+2022-07-06 23:14:03,594 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,594 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,702 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:03,704 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:03,732 INFO    Thread-10 :3580 [sender.py:transition_state():393] send defer: 8
+2022-07-06 23:14:03,734 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:03,734 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-06 23:14:03,735 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:03,736 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-06 23:14:03,810 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:04,255 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 9
+2022-07-06 23:14:04,256 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:04,258 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:04,258 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-06 23:14:04,258 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:04,258 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-06 23:14:04,260 INFO    SenderThread:3580 [sender.py:transition_state():393] send defer: 10
+2022-07-06 23:14:04,261 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 23:14:04,261 INFO    HandlerThread:3580 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-06 23:14:04,262 DEBUG   SenderThread:3580 [sender.py:send():236] send: final
+2022-07-06 23:14:04,262 DEBUG   SenderThread:3580 [sender.py:send():236] send: footer
+2022-07-06 23:14:04,262 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: defer
+2022-07-06 23:14:04,262 INFO    SenderThread:3580 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-06 23:14:04,366 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 23:14:04,366 DEBUG   SenderThread:3580 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 23:14:04,367 INFO    SenderThread:3580 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 23:14:05,463 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-06 23:14:05,466 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-06 23:14:05,470 DEBUG   HandlerThread:3580 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-06 23:14:05,472 INFO    HandlerThread:3580 [handler.py:finish():806] shutting down handler
+2022-07-06 23:14:06,266 INFO    WriterThread:3580 [datastore.py:close():279] close: C:\Users\ASUS\Documents\Mental_State_Classification\wandb\run-20220706_231228-3fs7d7kg\run-3fs7d7kg.wandb
+2022-07-06 23:14:06,359 INFO    SenderThread:3580 [sender.py:finish():1114] shutting down sender
+2022-07-06 23:14:06,360 INFO    SenderThread:3580 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 23:14:06,360 INFO    SenderThread:3580 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 23:14:06,366 INFO    MainThread:3580 [internal.py:handle_exit():80] Internal process exited
